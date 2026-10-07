@@ -9,10 +9,8 @@ cask "claude-quota-menu-bar" do
 
   app "ClaudeQuotaMenuBar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                    args: ["-dr", "com.apple.quarantine", "#{appdir}/ClaudeQuotaMenuBar.app"],
-                    sudo: false
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/ClaudeQuotaMenuBar.app"]
   end
 
   caveats <<~EOS
