@@ -1,10 +1,12 @@
 # homebrew-claude-quota-tracker
 
-Homebrew tap for [ClaudeQuotaMenuBar](https://github.com/mehaxan/claude-quota-tracker).
+Homebrew tap for [BedrockMeter](https://github.com/mehaxan/claude-quota-tracker)
+(formerly named ClaudeQuotaMenuBar; the repo kept its original name).
 
 ## Install
 
 ```sh
 brew tap mehaxan/claude-quota-tracker
-brew install --cask claude-quota-menu-bar
+brew trust mehaxan/claude-quota-tracker
+brew install --cask bedrock-meter
 ```
