@@ -1,6 +1,6 @@
 cask "bedrock-meter" do
-  version "1.2.0"
-  sha256 "804ac840bf34d6dc983ec46d4392eeebd47d6e35be7b36b1a55c7b913de8be21"
+  version "1.3.0"
+  sha256 "b64ef866a626c4c26176ab95feda5ea53444ee89c65c45682051c4f5bb4a8226"
 
   url "https://github.com/mehaxan/claude-quota-tracker/releases/download/v#{version}/BedrockMeter.dmg"
   name "BedrockMeter"
